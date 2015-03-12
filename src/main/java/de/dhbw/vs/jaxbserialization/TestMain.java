@@ -37,7 +37,7 @@ public class TestMain {
 			
 			// Kunde in tmp-Datei schreiben
 			jaxbMarshaller.marshal(p, f);			
-			
+			jaxbMarshaller.marshal(p, System.out);
 			System.out.println("XML geschrieben in Datei: " + f.toString());
 			
 			// Kunde aus tmp-Datei lesen
