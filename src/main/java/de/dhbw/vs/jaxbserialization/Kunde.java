@@ -39,8 +39,9 @@ public class Kunde {
 	public int getKnr() {
 		return kundennummer;
 	}
+	
 	@XmlAttribute(name="Kundennummer")
-	public void setKnr(int alter) {
-		this.kundennummer = alter;
+	public void setKnr(int knr) {
+		this.kundennummer = knr;
 	} 
 }
